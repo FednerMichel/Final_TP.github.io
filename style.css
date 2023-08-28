@@ -1,0 +1,179 @@
+header.kontene{
+    background-color: rgb(174, 170, 170);
+    width: 100%;
+    padding: 35px 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 50px;
+    color: white;
+}
+section.akey{
+    background-color: beige;
+    padding: 50px 0;
+    width: 100%;
+    left: 0;
+    margin:31px 0;
+    text-align: center;
+}
+section.akey p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+section.akey button{
+    padding: 15px 60px;
+}
+section.akey button a{
+    text-decoration: none;
+    font-size:medium;
+}
+section.akey button:hover{
+    background-color: rgb(218, 213, 213);
+    transition: all 0.5s linear 0.5s;
+}
+section.akey a.lien::before{
+    content: "Pwojè";
+    font-weight: bold;
+}
+section.akey a.lien:hover::before{
+display: none;
+}
+section.akey a.lien:hover::after{
+    content: "Wè pwojè'm yo";
+    font-weight: bold;
+}
+section div.tt{
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+div.z{
+    background-color:beige;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0px;
+}
+div.z article{
+    margin: 2px 20px;
+}
+div.pr h1{
+    text-align: center;
+}
+div.mik{
+    background-color: beige;
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+}
+div.mik section{
+    background-color: rgb(237, 237, 237);;
+    height: 280px;
+    width: 35em;
+    margin: 0px 55px;
+    padding: 0 25px;
+}
+div.mik button{
+    padding: 15px 4em;
+   margin: auto;
+}
+strong{
+    color: rgba(104, 7, 7, 0.815);
+}
+div.mik button a::before{
+    content: "Klike";
+}
+div.mik button a:hover::before{
+    display: none;
+}
+div.mik button a:hover::after{
+    content: "wè pwojè a";
+}
+div.mik button.bout:hover{
+background-color: rgb(245, 227, 195);
+transition: all 0.8s ease-in-out 0.5s;
+}
+div.mik button.Bou:hover{
+    background-color:rgb(202, 202, 245);
+    transition: all 0.8s ease-in-out 0.5s;
+}
+div.mik button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+div.titi {
+    background: beige;
+    padding: 50px 0px;
+    width: 100%;
+}
+div.titi h1{
+    text-align: center;
+}
+div.mesaj{
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    padding: 0px 420px;
+
+}
+form.final{
+    background-color: rgb(237, 237, 237);
+    width: 35%;
+}
+form.final legend{
+    margin: 5px 10px;
+}
+div.mesaj input,textarea{
+margin: 5px 25px;
+}
+div.mesaj input{
+padding: 5px 80px;
+}
+form.final div.n{
+    text-align: center;
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:828px) {
+    header.kontene{
+        background-color: rgb(174, 170, 170);;
+        width: 100%;
+        padding:35px 0;
+        left: 0;
+        position: fixed;
+        top: 0;
+    }
+    nav a{
+        font-size:medium;
+        font-weight: bold;
+        margin-left: 20px;
+        color: white;
+    }
+    div.mik{
+        padding: 20px 0;
+    }
+    div.mik section{
+        background-color: rgb(237, 237, 237);;
+        height: 390px;
+        width: 9em;
+        margin: 0px 8px;
+        padding: 0 25px;
+    }
+    div.mesaj{
+        padding: 0px 0px;
+        display: flex;
+    }
+    form.final{
+        width: 95%;
+        
+    }
+}
